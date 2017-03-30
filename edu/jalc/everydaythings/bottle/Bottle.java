@@ -1,8 +1,9 @@
 package edu.jalc.everydaythings.bottle;
 
 import edu.jalc.everydaythings.liquid.Liquid;
+import edu.jalc.everydaythings.Pourable;
 
-abstract public class Bottle {
+abstract public class Bottle implements Pourable{
 
 	private double capacity;
 	private Liquid liquid;
